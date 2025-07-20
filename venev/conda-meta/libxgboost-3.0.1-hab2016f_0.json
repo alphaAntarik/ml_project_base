@@ -1,0 +1,637 @@
+{
+  "build": "hab2016f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6",
+    "llvm-openmp >=14.0.6",
+    "__osx >=10.15"
+  ],
+  "extracted_package_dir": "/Users/antarik/miniconda3/pkgs/libxgboost-3.0.1-hab2016f_0",
+  "files": [
+    "include/dmlc/any.h",
+    "include/dmlc/array_view.h",
+    "include/dmlc/base.h",
+    "include/dmlc/blockingconcurrentqueue.h",
+    "include/dmlc/build_config.h",
+    "include/dmlc/build_config_default.h",
+    "include/dmlc/common.h",
+    "include/dmlc/concurrency.h",
+    "include/dmlc/concurrentqueue.h",
+    "include/dmlc/config.h",
+    "include/dmlc/data.h",
+    "include/dmlc/endian.h",
+    "include/dmlc/filesystem.h",
+    "include/dmlc/input_split_shuffle.h",
+    "include/dmlc/io.h",
+    "include/dmlc/json.h",
+    "include/dmlc/logging.h",
+    "include/dmlc/lua.h",
+    "include/dmlc/memory.h",
+    "include/dmlc/memory_io.h",
+    "include/dmlc/omp.h",
+    "include/dmlc/optional.h",
+    "include/dmlc/parameter.h",
+    "include/dmlc/recordio.h",
+    "include/dmlc/registry.h",
+    "include/dmlc/serializer.h",
+    "include/dmlc/strtonum.h",
+    "include/dmlc/thread_group.h",
+    "include/dmlc/thread_local.h",
+    "include/dmlc/threadediter.h",
+    "include/dmlc/timer.h",
+    "include/dmlc/type_traits.h",
+    "include/xgboost/base.h",
+    "include/xgboost/c_api.h",
+    "include/xgboost/cache.h",
+    "include/xgboost/collective/poll_utils.h",
+    "include/xgboost/collective/result.h",
+    "include/xgboost/collective/socket.h",
+    "include/xgboost/context.h",
+    "include/xgboost/data.h",
+    "include/xgboost/feature_map.h",
+    "include/xgboost/gbm.h",
+    "include/xgboost/global_config.h",
+    "include/xgboost/host_device_vector.h",
+    "include/xgboost/intrusive_ptr.h",
+    "include/xgboost/json.h",
+    "include/xgboost/json_io.h",
+    "include/xgboost/learner.h",
+    "include/xgboost/linalg.h",
+    "include/xgboost/linear_updater.h",
+    "include/xgboost/logging.h",
+    "include/xgboost/metric.h",
+    "include/xgboost/model.h",
+    "include/xgboost/multi_target_tree_model.h",
+    "include/xgboost/objective.h",
+    "include/xgboost/parameter.h",
+    "include/xgboost/predictor.h",
+    "include/xgboost/span.h",
+    "include/xgboost/string_view.h",
+    "include/xgboost/task.h",
+    "include/xgboost/tree_model.h",
+    "include/xgboost/tree_updater.h",
+    "include/xgboost/version_config.h",
+    "include/xgboost/windefs.h",
+    "lib/cmake/dmlc/DMLCTargets-release.cmake",
+    "lib/cmake/dmlc/DMLCTargets.cmake",
+    "lib/cmake/dmlc/dmlc-config-version.cmake",
+    "lib/cmake/dmlc/dmlc-config.cmake",
+    "lib/cmake/xgboost/XGBoostTargets-release.cmake",
+    "lib/cmake/xgboost/XGBoostTargets.cmake",
+    "lib/cmake/xgboost/xgboost-config-version.cmake",
+    "lib/cmake/xgboost/xgboost-config.cmake",
+    "lib/libdmlc.a",
+    "lib/libxgboost.dylib",
+    "lib/pkgconfig/xgboost.pc"
+  ],
+  "fn": "libxgboost-3.0.1-hab2016f_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/antarik/miniconda3/pkgs/libxgboost-3.0.1-hab2016f_0",
+    "type": 1
+  },
+  "md5": "9ac96fb574c0fe15719e4af1ebd16213",
+  "name": "libxgboost",
+  "package_tarball_full_path": "/Users/antarik/miniconda3/pkgs/libxgboost-3.0.1-hab2016f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/dmlc/any.h",
+        "path_type": "hardlink",
+        "sha256": "5b5803a5269e92e60522e5e81061418a47428abb0fc7b90e47f41bc68a902e9d",
+        "sha256_in_prefix": "5b5803a5269e92e60522e5e81061418a47428abb0fc7b90e47f41bc68a902e9d",
+        "size_in_bytes": 11286
+      },
+      {
+        "_path": "include/dmlc/array_view.h",
+        "path_type": "hardlink",
+        "sha256": "92b6459600899356688ac39f6d13127b50b68375e920ea2e1ded12a7603abc2c",
+        "sha256_in_prefix": "92b6459600899356688ac39f6d13127b50b68375e920ea2e1ded12a7603abc2c",
+        "size_in_bytes": 3262
+      },
+      {
+        "_path": "include/dmlc/base.h",
+        "path_type": "hardlink",
+        "sha256": "c1d34fc3100643171893ccd4ab822970f9b2a515cb3035d453f8cd8fbf8f8b60",
+        "sha256_in_prefix": "c1d34fc3100643171893ccd4ab822970f9b2a515cb3035d453f8cd8fbf8f8b60",
+        "size_in_bytes": 8527
+      },
+      {
+        "_path": "include/dmlc/blockingconcurrentqueue.h",
+        "path_type": "hardlink",
+        "sha256": "10566a317049cc1c829944d0668fbce8c07c0c43f035776852590be54e73de40",
+        "sha256_in_prefix": "10566a317049cc1c829944d0668fbce8c07c0c43f035776852590be54e73de40",
+        "size_in_bytes": 33014
+      },
+      {
+        "_path": "include/dmlc/build_config.h",
+        "path_type": "hardlink",
+        "sha256": "9e969aad80219f5b2e53a8d526bb4d80c44a713655163108c62324e9ec592a34",
+        "sha256_in_prefix": "9e969aad80219f5b2e53a8d526bb4d80c44a713655163108c62324e9ec592a34",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "include/dmlc/build_config_default.h",
+        "path_type": "hardlink",
+        "sha256": "8c3dfae10445c01dc3108b87d437b71ef559169441c5a11b340bb54e8940fab0",
+        "sha256_in_prefix": "8c3dfae10445c01dc3108b87d437b71ef559169441c5a11b340bb54e8940fab0",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "include/dmlc/common.h",
+        "path_type": "hardlink",
+        "sha256": "94b189c5cf032511962aa853d0e631369fbd8aa7482d25d56c7cc79e647ffa83",
+        "sha256_in_prefix": "94b189c5cf032511962aa853d0e631369fbd8aa7482d25d56c7cc79e647ffa83",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "include/dmlc/concurrency.h",
+        "path_type": "hardlink",
+        "sha256": "489426ad6d11d357b1f72479dad8752ae26edf2cd407a70166a2f45824f5890c",
+        "sha256_in_prefix": "489426ad6d11d357b1f72479dad8752ae26edf2cd407a70166a2f45824f5890c",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "include/dmlc/concurrentqueue.h",
+        "path_type": "hardlink",
+        "sha256": "727dacd61240023066d65de20733ed6ef5f6b45c1c9384ff3ba7642b732d771f",
+        "sha256_in_prefix": "727dacd61240023066d65de20733ed6ef5f6b45c1c9384ff3ba7642b732d771f",
+        "size_in_bytes": 159320
+      },
+      {
+        "_path": "include/dmlc/config.h",
+        "path_type": "hardlink",
+        "sha256": "5950c57ec12edf231b817b5da5678ca5fe851f1e9175996d94236516420966bd",
+        "sha256_in_prefix": "5950c57ec12edf231b817b5da5678ca5fe851f1e9175996d94236516420966bd",
+        "size_in_bytes": 5179
+      },
+      {
+        "_path": "include/dmlc/data.h",
+        "path_type": "hardlink",
+        "sha256": "23537cf0f09613848291d4d8a6e66bab911d85c44fc242f964abd928491b2866",
+        "sha256_in_prefix": "23537cf0f09613848291d4d8a6e66bab911d85c44fc242f964abd928491b2866",
+        "size_in_bytes": 12173
+      },
+      {
+        "_path": "include/dmlc/endian.h",
+        "path_type": "hardlink",
+        "sha256": "6a6fc44270f12019d81ce953a1c445a3182e6e6723ecdfa5548330f96cc15a0a",
+        "sha256_in_prefix": "6a6fc44270f12019d81ce953a1c445a3182e6e6723ecdfa5548330f96cc15a0a",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "include/dmlc/filesystem.h",
+        "path_type": "hardlink",
+        "sha256": "32c4657a921d26c3c6a28caddb0e42311a7618af8c9c219ca83efbf834889d82",
+        "sha256_in_prefix": "32c4657a921d26c3c6a28caddb0e42311a7618af8c9c219ca83efbf834889d82",
+        "size_in_bytes": 4883
+      },
+      {
+        "_path": "include/dmlc/input_split_shuffle.h",
+        "path_type": "hardlink",
+        "sha256": "8f771438b0997e6401b9133304c294782a508f09ef57b2f7a72e51734606a8b4",
+        "sha256_in_prefix": "8f771438b0997e6401b9133304c294782a508f09ef57b2f7a72e51734606a8b4",
+        "size_in_bytes": 5925
+      },
+      {
+        "_path": "include/dmlc/io.h",
+        "path_type": "hardlink",
+        "sha256": "08aae256fb6818b1e4fd83373eef8e94dab22cae399cdd5fdc308c09edad5148",
+        "sha256_in_prefix": "08aae256fb6818b1e4fd83373eef8e94dab22cae399cdd5fdc308c09edad5148",
+        "size_in_bytes": 20370
+      },
+      {
+        "_path": "include/dmlc/json.h",
+        "path_type": "hardlink",
+        "sha256": "b70f69b9f3a06cfe7289762f6adabffca53cea9751954d4a2dc83e6487e8b4b6",
+        "sha256_in_prefix": "b70f69b9f3a06cfe7289762f6adabffca53cea9751954d4a2dc83e6487e8b4b6",
+        "size_in_bytes": 27921
+      },
+      {
+        "_path": "include/dmlc/logging.h",
+        "path_type": "hardlink",
+        "sha256": "adb4c0816764bd563529b08bb1c6518b3ce94a419c73d5a3118a2f9717651482",
+        "sha256_in_prefix": "adb4c0816764bd563529b08bb1c6518b3ce94a419c73d5a3118a2f9717651482",
+        "size_in_bytes": 13814
+      },
+      {
+        "_path": "include/dmlc/lua.h",
+        "path_type": "hardlink",
+        "sha256": "8fdd6443138ae8d14a908064fecf59bbeeb3dd7a2bf03e6be40dcd0e03b9f4c3",
+        "sha256_in_prefix": "8fdd6443138ae8d14a908064fecf59bbeeb3dd7a2bf03e6be40dcd0e03b9f4c3",
+        "size_in_bytes": 21199
+      },
+      {
+        "_path": "include/dmlc/memory.h",
+        "path_type": "hardlink",
+        "sha256": "576af1e692c3fb9261cbb2908490aa20c77bb688877188c81516086cfb372d78",
+        "sha256_in_prefix": "576af1e692c3fb9261cbb2908490aa20c77bb688877188c81516086cfb372d78",
+        "size_in_bytes": 6887
+      },
+      {
+        "_path": "include/dmlc/memory_io.h",
+        "path_type": "hardlink",
+        "sha256": "8c90726941110be84398afa942cb7fb2c2b5a006543ac292d3ae815f4c23c2d4",
+        "sha256_in_prefix": "8c90726941110be84398afa942cb7fb2c2b5a006543ac292d3ae815f4c23c2d4",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "include/dmlc/omp.h",
+        "path_type": "hardlink",
+        "sha256": "4ad2abab6648cf1f9fab7ae805a9013d59494d345456f15e594d1b67c3842a10",
+        "sha256_in_prefix": "4ad2abab6648cf1f9fab7ae805a9013d59494d345456f15e594d1b67c3842a10",
+        "size_in_bytes": 1204
+      },
+      {
+        "_path": "include/dmlc/optional.h",
+        "path_type": "hardlink",
+        "sha256": "eebfc2f93af2dfd114cd43796cbc27a1e59ff2c0bdfafbc0f5d32235161f4a7a",
+        "sha256_in_prefix": "eebfc2f93af2dfd114cd43796cbc27a1e59ff2c0bdfafbc0f5d32235161f4a7a",
+        "size_in_bytes": 12975
+      },
+      {
+        "_path": "include/dmlc/parameter.h",
+        "path_type": "hardlink",
+        "sha256": "9b24ee9e4f6f78dfc6ecd251e042c809327512345486673808ba9f786d3d550f",
+        "sha256_in_prefix": "9b24ee9e4f6f78dfc6ecd251e042c809327512345486673808ba9f786d3d550f",
+        "size_in_bytes": 37604
+      },
+      {
+        "_path": "include/dmlc/recordio.h",
+        "path_type": "hardlink",
+        "sha256": "8929f0440f9bf22b75cbfcd1f1409bcfd9ee4a87f82979fdcbd024e5841b32ff",
+        "sha256_in_prefix": "8929f0440f9bf22b75cbfcd1f1409bcfd9ee4a87f82979fdcbd024e5841b32ff",
+        "size_in_bytes": 5892
+      },
+      {
+        "_path": "include/dmlc/registry.h",
+        "path_type": "hardlink",
+        "sha256": "64dfea9ded29e693b2c94d2aaf5a285cd45b46acd257fd60678ce6378f8b65f0",
+        "sha256_in_prefix": "64dfea9ded29e693b2c94d2aaf5a285cd45b46acd257fd60678ce6378f8b65f0",
+        "size_in_bytes": 10300
+      },
+      {
+        "_path": "include/dmlc/serializer.h",
+        "path_type": "hardlink",
+        "sha256": "2e09fe21fc91fe277be53f62c84d4590d789da344c1a6ed2ae6f8a330faca614",
+        "sha256_in_prefix": "2e09fe21fc91fe277be53f62c84d4590d789da344c1a6ed2ae6f8a330faca614",
+        "size_in_bytes": 12463
+      },
+      {
+        "_path": "include/dmlc/strtonum.h",
+        "path_type": "hardlink",
+        "sha256": "8ce42beeda25e8283463f2412dc779c3c5642791bbf225bfdd25bcd731aebe48",
+        "sha256_in_prefix": "8ce42beeda25e8283463f2412dc779c3c5642791bbf225bfdd25bcd731aebe48",
+        "size_in_bytes": 25195
+      },
+      {
+        "_path": "include/dmlc/thread_group.h",
+        "path_type": "hardlink",
+        "sha256": "f10a53a7db8e3f5686afb8dabdc6a2a3f9c2197da228ef6eb105778213ad64c4",
+        "sha256_in_prefix": "f10a53a7db8e3f5686afb8dabdc6a2a3f9c2197da228ef6eb105778213ad64c4",
+        "size_in_bytes": 28348
+      },
+      {
+        "_path": "include/dmlc/thread_local.h",
+        "path_type": "hardlink",
+        "sha256": "1aa48c9ded63427c4a602a3f9794defd5fa8d3c5de32a3066620e6534f1afe09",
+        "sha256_in_prefix": "1aa48c9ded63427c4a602a3f9794defd5fa8d3c5de32a3066620e6534f1afe09",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "include/dmlc/threadediter.h",
+        "path_type": "hardlink",
+        "sha256": "9841f4bec6342a8925d357d12d18d120cb1d613e2fdd952e647772ebe2db9098",
+        "sha256_in_prefix": "9841f4bec6342a8925d357d12d18d120cb1d613e2fdd952e647772ebe2db9098",
+        "size_in_bytes": 16601
+      },
+      {
+        "_path": "include/dmlc/timer.h",
+        "path_type": "hardlink",
+        "sha256": "84fbfb6363d9ac80f5d9de202a9272e244a31db685506de9de6f3e6f8eca4aed",
+        "sha256_in_prefix": "84fbfb6363d9ac80f5d9de202a9272e244a31db685506de9de6f3e6f8eca4aed",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "include/dmlc/type_traits.h",
+        "path_type": "hardlink",
+        "sha256": "140a21b6b226a87091181986cecaaa5614d1ec60ef43577c20525cdf6626a4d8",
+        "sha256_in_prefix": "140a21b6b226a87091181986cecaaa5614d1ec60ef43577c20525cdf6626a4d8",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "include/xgboost/base.h",
+        "path_type": "hardlink",
+        "sha256": "47f0148706907ccecb72b8484687524bc36d58b4c6fe5e7b81e59de157261ea7",
+        "sha256_in_prefix": "47f0148706907ccecb72b8484687524bc36d58b4c6fe5e7b81e59de157261ea7",
+        "size_in_bytes": 10127
+      },
+      {
+        "_path": "include/xgboost/c_api.h",
+        "path_type": "hardlink",
+        "sha256": "2ccec6e5301fa5a1324f60af48b9c6be5879e590ed583ec9d74297e6018860bc",
+        "sha256_in_prefix": "2ccec6e5301fa5a1324f60af48b9c6be5879e590ed583ec9d74297e6018860bc",
+        "size_in_bytes": 72936
+      },
+      {
+        "_path": "include/xgboost/cache.h",
+        "path_type": "hardlink",
+        "sha256": "7a228ab3c1315ffcce2042a02c41d41bba368fa6bc45efe74d1f71f16f90c0b9",
+        "sha256_in_prefix": "7a228ab3c1315ffcce2042a02c41d41bba368fa6bc45efe74d1f71f16f90c0b9",
+        "size_in_bytes": 6210
+      },
+      {
+        "_path": "include/xgboost/collective/poll_utils.h",
+        "path_type": "hardlink",
+        "sha256": "35848a221937e3f59755962b8b8eaae68c363540d75c1fcc96ba66569d4312b5",
+        "sha256_in_prefix": "35848a221937e3f59755962b8b8eaae68c363540d75c1fcc96ba66569d4312b5",
+        "size_in_bytes": 7032
+      },
+      {
+        "_path": "include/xgboost/collective/result.h",
+        "path_type": "hardlink",
+        "sha256": "763ed5a4d06d4b85f89104caeedcdb6b800bfaa6cb02a8f7cc064be46644deb1",
+        "sha256_in_prefix": "763ed5a4d06d4b85f89104caeedcdb6b800bfaa6cb02a8f7cc064be46644deb1",
+        "size_in_bytes": 5757
+      },
+      {
+        "_path": "include/xgboost/collective/socket.h",
+        "path_type": "hardlink",
+        "sha256": "b43a5c39ed6f23ba4ea0ca8b08009a4c25f18b91d8098eac89683cb7ed158f89",
+        "sha256_in_prefix": "b43a5c39ed6f23ba4ea0ca8b08009a4c25f18b91d8098eac89683cb7ed158f89",
+        "size_in_bytes": 26310
+      },
+      {
+        "_path": "include/xgboost/context.h",
+        "path_type": "hardlink",
+        "sha256": "31e7327787383c10bcaa7c83bfde0d8bfa3a6048ab30c6004deb297c95731efb",
+        "sha256_in_prefix": "31e7327787383c10bcaa7c83bfde0d8bfa3a6048ab30c6004deb297c95731efb",
+        "size_in_bytes": 10756
+      },
+      {
+        "_path": "include/xgboost/data.h",
+        "path_type": "hardlink",
+        "sha256": "70dc3151adeee3d2ff688cc40a2189e4ecea2ad6781dea001fa02bc7e27a6a6b",
+        "sha256_in_prefix": "70dc3151adeee3d2ff688cc40a2189e4ecea2ad6781dea001fa02bc7e27a6a6b",
+        "size_in_bytes": 25665
+      },
+      {
+        "_path": "include/xgboost/feature_map.h",
+        "path_type": "hardlink",
+        "sha256": "a0af64ac55fbee1ee0fcae4cc7c59605fc36dbc51128af665ce59e1c09792fff",
+        "sha256_in_prefix": "a0af64ac55fbee1ee0fcae4cc7c59605fc36dbc51128af665ce59e1c09792fff",
+        "size_in_bytes": 2661
+      },
+      {
+        "_path": "include/xgboost/gbm.h",
+        "path_type": "hardlink",
+        "sha256": "3dcbf6e749660e6a15ddbbb2bfda03626b55d857ca894cb0e2052820472ebf8c",
+        "sha256_in_prefix": "3dcbf6e749660e6a15ddbbb2bfda03626b55d857ca894cb0e2052820472ebf8c",
+        "size_in_bytes": 8016
+      },
+      {
+        "_path": "include/xgboost/global_config.h",
+        "path_type": "hardlink",
+        "sha256": "7c4e4e801bf988971f5863df4fb87507649aae33dc48c21f20515a5e0b86cc24",
+        "sha256_in_prefix": "7c4e4e801bf988971f5863df4fb87507649aae33dc48c21f20515a5e0b86cc24",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "include/xgboost/host_device_vector.h",
+        "path_type": "hardlink",
+        "sha256": "31118fd5ba1293b5acdca901f2596bd1773b8ba900d633e5641f98cf2c73a7eb",
+        "sha256_in_prefix": "31118fd5ba1293b5acdca901f2596bd1773b8ba900d633e5641f98cf2c73a7eb",
+        "size_in_bytes": 5776
+      },
+      {
+        "_path": "include/xgboost/intrusive_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "a444900dae063268101bc761da39911484ab878c9d6d2a444faaff10a7618d81",
+        "sha256_in_prefix": "a444900dae063268101bc761da39911484ab878c9d6d2a444faaff10a7618d81",
+        "size_in_bytes": 6073
+      },
+      {
+        "_path": "include/xgboost/json.h",
+        "path_type": "hardlink",
+        "sha256": "9b14fbd0f5c304b09bb7d045077694e476123c7d61b82e5ce2ee4ea284d07e62",
+        "sha256_in_prefix": "9b14fbd0f5c304b09bb7d045077694e476123c7d61b82e5ce2ee4ea284d07e62",
+        "size_in_bytes": 19798
+      },
+      {
+        "_path": "include/xgboost/json_io.h",
+        "path_type": "hardlink",
+        "sha256": "65628f001eb6ba5bc1aa1a6698c8c31f558764c0dbdee70c8e05c23bd3e62869",
+        "sha256_in_prefix": "65628f001eb6ba5bc1aa1a6698c8c31f558764c0dbdee70c8e05c23bd3e62869",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "include/xgboost/learner.h",
+        "path_type": "hardlink",
+        "sha256": "7308747a747c3b51a059905d58094ff4de436807c1632445ef1dced007f1b504",
+        "sha256_in_prefix": "7308747a747c3b51a059905d58094ff4de436807c1632445ef1dced007f1b504",
+        "size_in_bytes": 12909
+      },
+      {
+        "_path": "include/xgboost/linalg.h",
+        "path_type": "hardlink",
+        "sha256": "9b01abf5973783e52a770501b7b4d94ce665f33c560110b5af7aca5675729e5e",
+        "sha256_in_prefix": "9b01abf5973783e52a770501b7b4d94ce665f33c560110b5af7aca5675729e5e",
+        "size_in_bytes": 32642
+      },
+      {
+        "_path": "include/xgboost/linear_updater.h",
+        "path_type": "hardlink",
+        "sha256": "281014d85e1328ba99a5d6336da0e24db3fcdb4159ae1ec199d8eee1ff1ab424",
+        "sha256_in_prefix": "281014d85e1328ba99a5d6336da0e24db3fcdb4159ae1ec199d8eee1ff1ab424",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "include/xgboost/logging.h",
+        "path_type": "hardlink",
+        "sha256": "3e4b6fc0231a7362e1878bb2012a0e98ace63dedc434c031f2a0c2b87f3f7681",
+        "sha256_in_prefix": "3e4b6fc0231a7362e1878bb2012a0e98ace63dedc434c031f2a0c2b87f3f7681",
+        "size_in_bytes": 4654
+      },
+      {
+        "_path": "include/xgboost/metric.h",
+        "path_type": "hardlink",
+        "sha256": "54fd02a3625f5dda8faaa22d18b657e5944cf56d85a5b38038d30f0a340e3b86",
+        "sha256_in_prefix": "54fd02a3625f5dda8faaa22d18b657e5944cf56d85a5b38038d30f0a340e3b86",
+        "size_in_bytes": 3343
+      },
+      {
+        "_path": "include/xgboost/model.h",
+        "path_type": "hardlink",
+        "sha256": "4b672f4c10c61b3e60a52d683e0d10be7ab1ba099f3c71bf1ca7cd873e29e68e",
+        "sha256_in_prefix": "4b672f4c10c61b3e60a52d683e0d10be7ab1ba099f3c71bf1ca7cd873e29e68e",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "include/xgboost/multi_target_tree_model.h",
+        "path_type": "hardlink",
+        "sha256": "8f9f5135ff581e8758c9692ffec3772b9dae66eb3a901884cc450154d2f21b89",
+        "sha256_in_prefix": "8f9f5135ff581e8758c9692ffec3772b9dae66eb3a901884cc450154d2f21b89",
+        "size_in_bytes": 3511
+      },
+      {
+        "_path": "include/xgboost/objective.h",
+        "path_type": "hardlink",
+        "sha256": "bfe13746e529e5058c0cce74ae332c5ff5d33d87358f3145979daa7a3b29a657",
+        "sha256_in_prefix": "bfe13746e529e5058c0cce74ae332c5ff5d33d87358f3145979daa7a3b29a657",
+        "size_in_bytes": 5849
+      },
+      {
+        "_path": "include/xgboost/parameter.h",
+        "path_type": "hardlink",
+        "sha256": "cfd1db5851cc8ec68b524f43c96219bab330e27ce4e464e152d46158c20ebc6a",
+        "sha256_in_prefix": "cfd1db5851cc8ec68b524f43c96219bab330e27ce4e464e152d46158c20ebc6a",
+        "size_in_bytes": 2910
+      },
+      {
+        "_path": "include/xgboost/predictor.h",
+        "path_type": "hardlink",
+        "sha256": "a141334233bfbc27df9b558f7c8db5d164c7d14069a8ed8c470ac37fb64391ae",
+        "sha256_in_prefix": "a141334233bfbc27df9b558f7c8db5d164c7d14069a8ed8c470ac37fb64391ae",
+        "size_in_bytes": 7305
+      },
+      {
+        "_path": "include/xgboost/span.h",
+        "path_type": "hardlink",
+        "sha256": "d1936e21bac46418e6480e905f3aefae4dbb69a586dfd560582bc20b9fdb1d2d",
+        "sha256_in_prefix": "d1936e21bac46418e6480e905f3aefae4dbb69a586dfd560582bc20b9fdb1d2d",
+        "size_in_bytes": 23868
+      },
+      {
+        "_path": "include/xgboost/string_view.h",
+        "path_type": "hardlink",
+        "sha256": "0aae2e8c5aa442fc6a1fa07536a7ba3c0771ada63ec0a6b4e521507c33e24ae7",
+        "sha256_in_prefix": "0aae2e8c5aa442fc6a1fa07536a7ba3c0771ada63ec0a6b4e521507c33e24ae7",
+        "size_in_bytes": 3787
+      },
+      {
+        "_path": "include/xgboost/task.h",
+        "path_type": "hardlink",
+        "sha256": "86cf413a39907c32d69d5c4b749fb1688028884adc5a5e1d5ed84cb51d2e9d0f",
+        "sha256_in_prefix": "86cf413a39907c32d69d5c4b749fb1688028884adc5a5e1d5ed84cb51d2e9d0f",
+        "size_in_bytes": 1396
+      },
+      {
+        "_path": "include/xgboost/tree_model.h",
+        "path_type": "hardlink",
+        "sha256": "e39c1c6acf2eef9252decdb0149b3978c0de45fa1d86aee8090d9e8b05621eee",
+        "sha256_in_prefix": "e39c1c6acf2eef9252decdb0149b3978c0de45fa1d86aee8090d9e8b05621eee",
+        "size_in_bytes": 28984
+      },
+      {
+        "_path": "include/xgboost/tree_updater.h",
+        "path_type": "hardlink",
+        "sha256": "dc8e10700059566aa06c7f02f132e1bd3d7306f5ab5240b47af8d06a758100ad",
+        "sha256_in_prefix": "dc8e10700059566aa06c7f02f132e1bd3d7306f5ab5240b47af8d06a758100ad",
+        "size_in_bytes": 4896
+      },
+      {
+        "_path": "include/xgboost/version_config.h",
+        "path_type": "hardlink",
+        "sha256": "54715227ec489b2eab0323b86c46cdc303513ea1175d1d6364effd274f1b0b15",
+        "sha256_in_prefix": "54715227ec489b2eab0323b86c46cdc303513ea1175d1d6364effd274f1b0b15",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "include/xgboost/windefs.h",
+        "path_type": "hardlink",
+        "sha256": "74a5c88766e6fffc251c237bb8efe3cd2dd985d6084d328e58da88945ad6e8fd",
+        "sha256_in_prefix": "74a5c88766e6fffc251c237bb8efe3cd2dd985d6084d328e58da88945ad6e8fd",
+        "size_in_bytes": 869
+      },
+      {
+        "_path": "lib/cmake/dmlc/DMLCTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "ddefb8e055d1ed8c9f56f3fefd717ccdd24ed092333eaefce679758d32e52bb0",
+        "sha256_in_prefix": "ddefb8e055d1ed8c9f56f3fefd717ccdd24ed092333eaefce679758d32e52bb0",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "lib/cmake/dmlc/DMLCTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "d0e4c13431ff9d4abb549c434471ce43c490c8bdb248c9e69374c90ef593c1cf",
+        "sha256_in_prefix": "d0e4c13431ff9d4abb549c434471ce43c490c8bdb248c9e69374c90ef593c1cf",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "lib/cmake/dmlc/dmlc-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "fef4ad09acff35e59d4f4cc8a6b120b53a6338f03b22a77ac40cc838485c3ce1",
+        "sha256_in_prefix": "fef4ad09acff35e59d4f4cc8a6b120b53a6338f03b22a77ac40cc838485c3ce1",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/cmake/dmlc/dmlc-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "1f84b1b0ef91156a45fa494a3bd66e4aea49926726d14f0acfe38fa8157cfe5e",
+        "sha256_in_prefix": "1f84b1b0ef91156a45fa494a3bd66e4aea49926726d14f0acfe38fa8157cfe5e",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "lib/cmake/xgboost/XGBoostTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "f520590fab8f682a84f24b195ade15679d81d35dca2a46f335a1b15b9f07f797",
+        "sha256_in_prefix": "f520590fab8f682a84f24b195ade15679d81d35dca2a46f335a1b15b9f07f797",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/cmake/xgboost/XGBoostTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "34a3faa6b9e985bfc6f9126a1f57f80312f5e1a849bba81b0dbd37660bcb1f3c",
+        "sha256_in_prefix": "34a3faa6b9e985bfc6f9126a1f57f80312f5e1a849bba81b0dbd37660bcb1f3c",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "lib/cmake/xgboost/xgboost-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "8eeb16268bbee5d1c40516896b01ae5b69854e4af0a2f4ca3bb6323ddcdc9424",
+        "sha256_in_prefix": "8eeb16268bbee5d1c40516896b01ae5b69854e4af0a2f4ca3bb6323ddcdc9424",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "lib/cmake/xgboost/xgboost-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "a95e6e0d3fe0705cd6bcae68ed35cde532adceb2d9fee6b6d411640b269cdbc0",
+        "sha256_in_prefix": "a95e6e0d3fe0705cd6bcae68ed35cde532adceb2d9fee6b6d411640b269cdbc0",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/libdmlc.a",
+        "path_type": "hardlink",
+        "sha256": "3ffdd9971320b4fa26bd1e5ad400b1d385f7fcf805dfd02c6965859384856fee",
+        "sha256_in_prefix": "3ffdd9971320b4fa26bd1e5ad400b1d385f7fcf805dfd02c6965859384856fee",
+        "size_in_bytes": 1462992
+      },
+      {
+        "_path": "lib/libxgboost.dylib",
+        "path_type": "hardlink",
+        "sha256": "b7bb9aa2e5c8c458553eccc2ec59301b3e3f35e9003b4d0fad65c79fb7fa4df8",
+        "sha256_in_prefix": "b7bb9aa2e5c8c458553eccc2ec59301b3e3f35e9003b4d0fad65c79fb7fa4df8",
+        "size_in_bytes": 7619020
+      },
+      {
+        "_path": "lib/pkgconfig/xgboost.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7eg2b3w9sf/croot/xgboost-split_1749630922962/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "2d60953928b928ce0b928e61e719a1783216d3e4f31d1766fc5017c622bd1a50",
+        "sha256_in_prefix": "87439eed6a276c6abc60a9dcaf6f505f4b07fd89d2f3cf8a4fd3c9cd29330c35",
+        "size_in_bytes": 505
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "854ab8a9a1275673c44c2a74343292be26fa8326d5f6eb1bb9f55f41552bd746",
+  "size": 2101683,
+  "subdir": "osx-64",
+  "timestamp": 1749631100000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libxgboost-3.0.1-hab2016f_0.conda",
+  "version": "3.0.1"
+}

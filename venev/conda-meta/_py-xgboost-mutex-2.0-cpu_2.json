@@ -1,0 +1,29 @@
+{
+  "build": "cpu_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/antarik/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_2",
+  "files": [],
+  "fn": "_py-xgboost-mutex-2.0-cpu_2.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/antarik/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_2",
+    "type": 1
+  },
+  "md5": "12b1bdf9334799c357347286e9147c7e",
+  "name": "_py-xgboost-mutex",
+  "package_tarball_full_path": "/Users/antarik/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "27f64d69974925cca6e06a874d64b207413cdb579dbb2b4ffd553fb6d8e60759",
+  "size": 16254,
+  "subdir": "osx-64",
+  "timestamp": 1721080181000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/_py-xgboost-mutex-2.0-cpu_2.conda",
+  "version": "2.0"
+}

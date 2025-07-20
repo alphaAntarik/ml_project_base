@@ -1,0 +1,80 @@
+{
+  "build": "hdd4a2e0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "openmp 17.0.6|17.0.6.*"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Users/antarik/miniconda3/pkgs/llvm-openmp-17.0.6-hdd4a2e0_0",
+  "files": [
+    "include/omp-tools.h",
+    "include/omp.h",
+    "include/ompt.h",
+    "lib/clang/17.0.6/include/omp.h",
+    "lib/libiomp5.dylib",
+    "lib/libomp.dylib"
+  ],
+  "fn": "llvm-openmp-17.0.6-hdd4a2e0_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/Users/antarik/miniconda3/pkgs/llvm-openmp-17.0.6-hdd4a2e0_0",
+    "type": 1
+  },
+  "md5": "0871f60a4c389ef44c343aa33b5a3acd",
+  "name": "llvm-openmp",
+  "package_tarball_full_path": "/Users/antarik/miniconda3/pkgs/llvm-openmp-17.0.6-hdd4a2e0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/omp-tools.h",
+        "path_type": "hardlink",
+        "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+        "sha256_in_prefix": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+        "size_in_bytes": 51555
+      },
+      {
+        "_path": "include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "f89e27f907b6017cdb65657f2131d4ca2bf79ce797ed2b90c1386a7c91c80f4a",
+        "sha256_in_prefix": "f89e27f907b6017cdb65657f2131d4ca2bf79ce797ed2b90c1386a7c91c80f4a",
+        "size_in_bytes": 23548
+      },
+      {
+        "_path": "include/ompt.h",
+        "path_type": "hardlink",
+        "sha256": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+        "sha256_in_prefix": "fa06b3089702db0d2dc5900caab6d93b2e5e0fd56295b65bf7611c436c72bff7",
+        "size_in_bytes": 51555
+      },
+      {
+        "_path": "lib/clang/17.0.6/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "f89e27f907b6017cdb65657f2131d4ca2bf79ce797ed2b90c1386a7c91c80f4a",
+        "sha256_in_prefix": "f89e27f907b6017cdb65657f2131d4ca2bf79ce797ed2b90c1386a7c91c80f4a",
+        "size_in_bytes": 23548
+      },
+      {
+        "_path": "lib/libiomp5.dylib",
+        "path_type": "softlink",
+        "sha256": "a3ec0d21f27c2874f57bc562f298ea6f9a0feff62bb8271fba48637e0338cf7b",
+        "size_in_bytes": 891688
+      },
+      {
+        "_path": "lib/libomp.dylib",
+        "path_type": "hardlink",
+        "sha256": "a3ec0d21f27c2874f57bc562f298ea6f9a0feff62bb8271fba48637e0338cf7b",
+        "sha256_in_prefix": "a3ec0d21f27c2874f57bc562f298ea6f9a0feff62bb8271fba48637e0338cf7b",
+        "size_in_bytes": 891688
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "65548c444ecb40fde26d1cda08c9a7502d0c0d50e25ee67310076d941da65510",
+  "size": 353827,
+  "subdir": "osx-64",
+  "timestamp": 1750197702000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/llvm-openmp-17.0.6-hdd4a2e0_0.conda",
+  "version": "17.0.6"
+}

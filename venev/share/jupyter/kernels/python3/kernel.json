@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/Users/antarik/Documents/Ml/Projects/ml_project_base/venev/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

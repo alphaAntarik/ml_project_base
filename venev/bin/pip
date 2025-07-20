@@ -1,5 +1,4 @@
-#!/Users/antarik/Documents/Ml/Projects/ml_project_base/venev/bin/python
-
+#!/Users/antarik/Documents/Ml/Projects/ml_project_base/venev/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

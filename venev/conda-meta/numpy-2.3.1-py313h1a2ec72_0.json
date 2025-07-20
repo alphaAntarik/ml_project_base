@@ -1,0 +1,38 @@
+{
+  "build": "py313h1a2ec72_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "setuptools <74"
+  ],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "blas * openblas",
+    "libopenblas >=0.3.29,<1.0a0",
+    "libcxx >=17",
+    "numpy-base 2.3.1 py313hce0bb57_0"
+  ],
+  "extracted_package_dir": "/Users/antarik/miniconda3/pkgs/numpy-2.3.1-py313h1a2ec72_0",
+  "files": [],
+  "fn": "numpy-2.3.1-py313h1a2ec72_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/antarik/miniconda3/pkgs/numpy-2.3.1-py313h1a2ec72_0",
+    "type": 1
+  },
+  "md5": "0171b383099fd3a77ddd04ee03cdd465",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/antarik/miniconda3/pkgs/numpy-2.3.1-py313h1a2ec72_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "94ea6881025447d64f931cdd8d7aeb6fc7a6b6546561ef8dd5b594f641c6094b",
+  "size": 12970,
+  "subdir": "osx-64",
+  "timestamp": 1750883990000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-2.3.1-py313h1a2ec72_0.conda",
+  "version": "2.3.1"
+}

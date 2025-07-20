@@ -1,0 +1,35 @@
+{
+  "build": "h357f2ed_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=10.13",
+    "liblzma 5.8.1 hd471939_2",
+    "liblzma-devel 5.8.1 hd471939_2",
+    "xz-gpl-tools 5.8.1 h357f2ed_2",
+    "xz-tools 5.8.1 hd471939_2"
+  ],
+  "extracted_package_dir": "/Users/antarik/miniconda3/pkgs/xz-5.8.1-h357f2ed_2",
+  "files": [],
+  "fn": "xz-5.8.1-h357f2ed_2.conda",
+  "license": "0BSD AND LGPL-2.1-or-later AND GPL-2.0-or-later",
+  "link": {
+    "source": "/Users/antarik/miniconda3/pkgs/xz-5.8.1-h357f2ed_2",
+    "type": 1
+  },
+  "md5": "7eee908c7df8478c1f35b28efa2e42b1",
+  "name": "xz",
+  "package_tarball_full_path": "/Users/antarik/miniconda3/pkgs/xz-5.8.1-h357f2ed_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "89248de6c9417522b6fec011dc26b81c25af731a31ba91e668f72f1b9aab05d7",
+  "size": 24033,
+  "subdir": "osx-64",
+  "timestamp": 1749230223000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/xz-5.8.1-h357f2ed_2.conda",
+  "version": "5.8.1"
+}

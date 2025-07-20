@@ -1,0 +1,5 @@
+#!/Users/antarik/Documents/Ml/Projects/ml_project_base/venev/bin/python3.13
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
